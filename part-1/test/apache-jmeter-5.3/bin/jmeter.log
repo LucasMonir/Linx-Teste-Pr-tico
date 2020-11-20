@@ -1,0 +1,194 @@
+2020-11-20 15:39:18,959 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-11-20 15:39:19,044 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-11-20 15:39:19,083 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-11-20 15:39:19,085 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-11-20 15:39:19,085 INFO o.a.j.JMeter: Version 5.3
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: java.version=14.0.1
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: os.name=Windows 10
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: os.arch=amd64
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: os.version=10.0
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: java.awt.headless=null
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-11-20 15:39:19,086 INFO o.a.j.JMeter: Available Processors =8
+2020-11-20 15:39:19,106 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-11-20 15:39:19,107 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-11-20 15:39:19,107 INFO o.a.j.JMeter: JMeterHome=E:\ROOT\downloads\apache-jmeter-5.3
+2020-11-20 15:39:19,107 INFO o.a.j.JMeter: user.dir  =E:\ROOT\downloads\apache-jmeter-5.3\bin
+2020-11-20 15:39:19,107 INFO o.a.j.JMeter: PWD       =E:\ROOT\downloads\apache-jmeter-5.3\bin
+2020-11-20 15:39:28,130 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: Pcdolusca FullName: Pcdolusca
+2020-11-20 15:39:28,407 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-11-20 15:39:29,114 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-11-20 15:45:17,221 INFO o.a.j.s.FileServer: Default base='E:\ROOT\downloads\apache-jmeter-5.3\bin'
+2020-11-20 15:45:17,225 INFO o.a.j.g.a.Load: Loading file: E:\ROOT\downloads\teste.jmx
+2020-11-20 15:45:17,225 INFO o.a.j.s.FileServer: Set new base='E:\ROOT\downloads'
+2020-11-20 15:45:17,432 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-11-20 15:45:17,493 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-11-20 15:45:17,495 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-11-20 15:45:17,497 INFO o.a.j.s.SaveService: Loading file: E:\ROOT\downloads\teste.jmx
+2020-11-20 15:45:17,557 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-20 15:45:17,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-20 15:45:17,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-20 15:45:17,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-20 15:45:17,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-11-20 15:45:17,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-11-20 15:45:17,788 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-11-20 15:45:17,788 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-11-20 15:45:17,789 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-11-20 15:45:17,789 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-11-20 15:45:18,071 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-11-20 15:45:18,147 INFO o.a.j.s.FileServer: Set new base='E:\ROOT\downloads'
+2020-11-20 15:45:45,508 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-11-20 15:45:45,509 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-20 15:45:45,509 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-20 15:45:45,510 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-11-20 15:45:45,510 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-11-20 15:45:45,927 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-11-20 15:45:45,988 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-11-20 15:45:45,989 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2020-11-20 15:45:45,989 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-11-20 15:45:45,989 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2020-11-20 15:45:46,001 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-11-20 15:45:46,001 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-11-20 15:45:46,011 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-11-20 15:45:46,016 INFO o.a.j.s.FileServer: Stored: E:/ROOT/downloads/myFile0.csv
+2020-11-20 15:45:46,074 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Pcdolusca
+2020-11-20 15:45:46,092 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-11-20 15:45:46,131 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-11-20 15:45:46,252 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-11-20 15:45:46,380 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-11-20 15:45:46,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-11-20 15:45:46,627 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-11-20 15:45:46,688 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-11-20 15:45:46,688 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-11-20 15:45:46,726 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-11-20 15:45:46,726 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-11-20 15:45:46,752 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-11-20 15:45:46,816 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-11-20 15:45:46,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-11-20 15:45:46,866 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-11-20 15:45:46,866 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-11-20 15:45:46,876 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-11-20 15:45:46,988 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-11-20 15:45:46,989 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-11-20 15:45:47,044 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-11-20 15:45:47,044 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-11-20 15:45:47,063 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-11-20 15:45:47,063 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-11-20 15:45:47,102 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-11-20 15:45:47,102 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-11-20 15:45:47,102 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-11-20 15:45:47,103 INFO o.a.j.s.FileServer: Close: E:/ROOT/downloads/myFile0.csv
+2020-11-20 15:45:47,104 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-11-20 15:46:40,021 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-11-20 15:46:40,022 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-20 15:46:40,024 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-11-20 15:46:40,077 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-11-20 15:46:40,077 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2020-11-20 15:46:40,077 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-11-20 15:46:40,078 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2020-11-20 15:46:40,080 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-11-20 15:46:40,081 INFO o.a.j.s.FileServer: Stored: E:/ROOT/downloads/myFile0.csv
+2020-11-20 15:46:40,082 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-11-20 15:46:40,082 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-11-20 15:46:40,205 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-11-20 15:46:40,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-11-20 15:46:40,455 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-11-20 15:46:40,580 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-11-20 15:46:40,694 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-11-20 15:46:40,694 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-11-20 15:46:40,705 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-11-20 15:46:40,770 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-11-20 15:46:40,770 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-11-20 15:46:40,831 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-11-20 15:46:40,860 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-11-20 15:46:40,860 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-11-20 15:46:40,892 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-11-20 15:46:40,892 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-11-20 15:46:40,959 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-11-20 15:46:40,992 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-11-20 15:46:40,992 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-11-20 15:46:41,068 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-11-20 15:46:41,068 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-11-20 15:46:41,123 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-11-20 15:46:41,124 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-11-20 15:46:41,171 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-11-20 15:46:41,171 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-11-20 15:46:41,171 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-11-20 15:46:41,172 INFO o.a.j.s.FileServer: Close: E:/ROOT/downloads/myFile0.csv
+2020-11-20 15:46:41,172 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-11-20 15:50:09,651 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-11-20 15:50:09,652 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-20 15:50:09,653 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-11-20 15:50:09,704 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-11-20 15:50:09,704 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2020-11-20 15:50:09,704 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-11-20 15:50:09,704 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2020-11-20 15:50:09,706 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-11-20 15:50:09,706 INFO o.a.j.s.FileServer: Stored: E:/ROOT/downloads/Dummy.csv
+2020-11-20 15:50:09,707 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-11-20 15:50:09,707 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-11-20 15:50:09,830 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-11-20 15:50:09,956 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-11-20 15:50:10,081 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-11-20 15:50:10,206 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-11-20 15:50:10,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-11-20 15:50:10,456 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-11-20 15:50:10,581 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-11-20 15:50:14,193 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-11-20 15:50:14,193 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-11-20 15:50:14,377 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-11-20 15:50:14,377 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-11-20 15:50:14,698 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-11-20 15:50:14,698 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-11-20 15:50:14,860 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-11-20 15:50:14,860 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-11-20 15:50:15,004 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-11-20 15:50:15,004 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-11-20 15:50:15,070 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-11-20 15:50:15,070 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-11-20 15:50:15,111 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-11-20 15:50:15,111 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-11-20 15:50:15,146 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-11-20 15:50:15,146 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-11-20 15:50:15,146 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-11-20 15:50:15,147 INFO o.a.j.s.FileServer: Close: E:/ROOT/downloads/Dummy.csv
+2020-11-20 15:50:15,147 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-11-20 15:51:15,295 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-11-20 15:51:15,296 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-20 15:51:15,298 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-11-20 15:51:15,350 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-11-20 15:51:15,350 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2020-11-20 15:51:15,350 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-11-20 15:51:15,350 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=1 delayedStart=false
+2020-11-20 15:51:15,352 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-11-20 15:51:15,353 INFO o.a.j.s.FileServer: Stored: E:/ROOT/downloads/Dummy.csv
+2020-11-20 15:51:15,354 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-11-20 15:51:15,354 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-11-20 15:51:15,477 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-11-20 15:51:15,603 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-11-20 15:51:15,729 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-11-20 15:51:15,853 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-11-20 15:51:15,978 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-11-20 15:51:16,102 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-11-20 15:51:16,227 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-11-20 15:51:18,936 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-11-20 15:51:18,937 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-11-20 15:51:19,589 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-11-20 15:51:19,589 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-11-20 15:51:19,977 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-11-20 15:51:19,977 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-11-20 15:51:20,110 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-11-20 15:51:20,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-11-20 15:51:20,270 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-11-20 15:51:20,270 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-11-20 15:51:20,363 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-11-20 15:51:20,363 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-11-20 15:51:20,472 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-11-20 15:51:20,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-11-20 15:51:20,485 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-11-20 15:51:20,485 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-11-20 15:51:20,486 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-11-20 15:51:20,487 INFO o.a.j.s.FileServer: Close: E:/ROOT/downloads/Dummy.csv
+2020-11-20 15:51:20,488 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
