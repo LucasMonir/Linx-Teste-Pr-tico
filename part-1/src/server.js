@@ -6,12 +6,11 @@ const cpus = require('os').cpus().length;
 const porta = 3000;
 
 const app = express();
-
 let posts = [];
 
 if (cluster.isMaster) {
     for (let i = 0; i < cpus; i++) {
-        let worker = cluster.fork();
+        worker = cluster.fork();
         console.log(`Starting up worker N: ${worker.id}`);
     }
 } else {
