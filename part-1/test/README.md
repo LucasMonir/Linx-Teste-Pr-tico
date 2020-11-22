@@ -13,7 +13,7 @@
 * Overview gráfico estára disponivel dentro da pasta criada na linha de código executado, o arquivo será chamado index.hmtl
 
 # Ferramentas e dependencias usadas
--- Todos comandos são executados via terminal na pasta src
+> Todos comandos são executados via terminal na pasta src
 
 * Visual Studio code (ou qualquer IDE)
 * NodeJS (importante para utilizar o NPM que será o gerenciador de pacotes), disponivel em https://www.npmjs.com/get-npm
