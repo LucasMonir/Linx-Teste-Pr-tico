@@ -25,14 +25,13 @@ linha anterior): "start": "nodemon server.js"
 * Executar o comando npm start, que iniciará a aplicação
 
 # Inicialização
--- Aplicação enviará ao console logs avisando:
+## Aplicação enviará ao console alguns logs:
+* Para cada nucleo do processador da máquina será escrito "Starting up worker N: " e o numero do worker
+* Após isso o programa informará a porta de execução (localhost:3000/products)
 
 # Lógica de filtragem
 * Requisições são jogadas em um "buffer" feito com uma array, e caso uma requisição com mesmo corpo (id, name e user)
 seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
-
-* Para cada nucleo do processador da máquina será escrito "Starting up worker N: " e o numero do worker
-* Após isso o programa informará a porta de execução (localhost:3000/products)
 
 # Problemas conhecidos na execução
 - No ambiente linux (ubuntu 20.04 lts), a implementação de clusters acabou quebrando a lógica da aplicação, por falta de conhecimento não foi possivel corrigir o problema,
