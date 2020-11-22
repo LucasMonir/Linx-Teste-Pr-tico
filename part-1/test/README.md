@@ -29,12 +29,14 @@ linha anterior): "start": "nodemon server.js"
 * Após isso o programa informará a porta de execução (localhost:3000/products)
 
 # Lógica de filtragem
+#lógica-de-filtragem
+
 * Requisições são jogadas em um "buffer" feito com uma array, e caso uma requisição com mesmo corpo (id, name e user)
 seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
 
 # Problemas conhecidos na execução
-- No ambiente linux (ubuntu 20.04 lts), a implementação de clusters acabou quebrando a lógica da aplicação, por falta de conhecimento não foi possivel corrigir o problema,
+- No ambiente linux (ubuntu 20.04 lts), a implementação de clusters afetou a lógica da aplicação devido ao escopo do buffer, por falta de conhecimento não foi possivel corrigir o problema,
 cada cluster acaba por tratar as informações de forma diferente, assim não faz uso do metodo de filtragem como deveria,
-porem no ambiente Windows o teste funciona como esperado e descrito em #Lógica de filtragem
+porem no ambiente Windows o teste funciona como esperado e descrito em [Lógica de filtragem](#lógica-de-filtragem)
 
 
