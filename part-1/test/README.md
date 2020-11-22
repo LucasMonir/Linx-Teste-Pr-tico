@@ -1,5 +1,6 @@
-# Passo a passo para execução do teste
+# Execução do teste
 
+## Passo a passo
 * Abrir pelo terminal a pasta bin dentro de apache-jmeter (apache-jmeter-5.3 -> bin), executar comando "jmeter" (sem aspas), que irá abrir a interface gráfica
 * Abrir arquivo de teste (file -> open -> selecionar arquivo teste.jmx)
 * Na interface gráfica pode-se configurar o numero de threads (aba Thread group)
@@ -12,7 +13,7 @@
 * jmeter -n -t [local do arquivo teste.jmx] -l [local desejado para resultados] -e -o [local desejado para geração de representações gráficas de desempenho]
 * Overview gráfico estára disponivel dentro da pasta criada na linha de código executado, o arquivo será chamado index.hmtl
 
-# Ferramentas e dependencias usadas
+## Ferramentas e dependencias usadas
 > Todos comandos são executados via terminal na pasta src
 
 * Visual Studio code (ou qualquer IDE)
@@ -24,17 +25,19 @@
 linha anterior): "start": "nodemon server.js"
 * Executar o comando npm start, que iniciará a aplicação
 
-# Inicialização
+# Execução do programa
+
+## Inicialização
 * Para cada nucleo do processador da máquina será escrito "Starting up worker N: " e o numero do worker
 * Após isso o programa informará a porta de execução (localhost:3000/products)
 
-# Lógica de filtragem
+## Lógica de filtragem
 #lógica-de-filtragem
 
 * Requisições são jogadas em um "buffer" feito com uma array, e caso uma requisição com mesmo corpo (id, name e user)
 seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
 
-# Problemas conhecidos na execução
+## Problemas conhecidos na execução
 - No ambiente linux (ubuntu 20.04 lts), a implementação de clusters afetou a lógica da aplicação devido ao escopo do buffer, por falta de conhecimento não foi possivel corrigir o problema,
 cada cluster acaba por tratar as informações de forma diferente, assim não faz uso do metodo de filtragem como deveria,
 porem no ambiente Windows o teste funciona como esperado e descrito em [Lógica de filtragem](#lógica-de-filtragem)
