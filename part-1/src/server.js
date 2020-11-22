@@ -70,16 +70,6 @@ if (cluster.isMaster) {
         }
     })
 
-    app.put('/products/:id', (req, res, next) => {
-        const product = banco.salvarProduct({
-            id: req.body.id,
-            name: req.body.name,
-            user: req.body.user
-        })
-
-        res.send(product);
-    });
-
     app.listen(porta, () => {
         console.log(`Port: ${porta} (localhost)`);
     });
