@@ -25,7 +25,6 @@ linha anterior): "start": "nodemon server.js"
 * Executar o comando npm start, que iniciará a aplicação
 
 # Inicialização
-## Aplicação enviará ao console alguns logs:
 * Para cada nucleo do processador da máquina será escrito "Starting up worker N: " e o numero do worker
 * Após isso o programa informará a porta de execução (localhost:3000/products)
 
