@@ -16,6 +16,7 @@
 ## Ferramentas e dependencias usadas
 > Todos comandos são executados via terminal na pasta src
 
+* (Testes durante desenvolvimento) Insomnia, utilizado para enviar requisições com corpo Json, disponivel em: https://insomnia.rest/download/
 * Visual Studio code (ou qualquer IDE)
 * NodeJS disponivel em: https://nodejs.org/en/download/
 * Npm, gerenciador de pacotes disponivel em: https://www.npmjs.com/get-npm
