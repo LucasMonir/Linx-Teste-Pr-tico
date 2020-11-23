@@ -20,14 +20,15 @@
 * NodeJS (importante para utilizar o NPM que será o gerenciador de pacotes), disponivel em https://www.npmjs.com/get-npm
 * Express, pelo comado: npm intall express.
 * Nodemon, pelo comando: npm install nodemon.
-* Jmeter, disponivel na pasta apache-jmeter.
-* Caso na pasta src não seja encontrado "package.json", executar npm init -y, após isso na aba de scripts adicionar este trecho (colocando uma virgula no fim da 
-linha anterior): "start": "nodemon server.js"
-* Executar o comando npm start, que iniciará a aplicação
+* Body-parser, pelo comando: npm install body-parser.
+* Jmeter, disponivel na pasta apache-jmeter (utilizado para teste).
 
 # Execução do programa
 
 ## Inicialização
+* Caso na pasta src não seja encontrado "package.json", executar npm init -y, após isso na aba de scripts adicionar este trecho (colocando uma virgula no fim da 
+linha anterior): "start": "nodemon server.js"
+* Executar o comando npm start, que iniciará a aplicação
 * Para cada nucleo do processador da máquina será escrito "Starting up worker N: " e o numero do worker
 * Após isso o programa informará a porta de execução (localhost:3000/products)
 
