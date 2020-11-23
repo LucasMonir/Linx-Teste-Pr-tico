@@ -26,7 +26,7 @@
 # Execução do programa
 
 ## Inicialização
-* Caso na pasta src não seja encontrado "package.json", executar npm init -y, após isso na aba de scripts adicionar este trecho (colocando uma virgula no fim da 
+* Caso na pasta src não seja encontrado "package.json", executar npm init -y, após isso na aba de scripts do mesmo, adicionar este trecho (colocando uma virgula no fim da 
 linha anterior): "start": "nodemon server.js"
 * Executar o comando npm start, que iniciará a aplicação
 * Para cada nucleo do processador da máquina será escrito "Starting up worker N: " e o numero do worker
