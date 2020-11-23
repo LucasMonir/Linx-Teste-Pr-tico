@@ -36,11 +36,12 @@ if (cluster.isMaster) {
     async function addProduct(product, posts) {
         posts.push(product);
         if (posts.length == 1) addTimer(product, posts);
+        db.updatePosts(posts)
     }
 
-    function addTimer(product, posts) {
+    function addTimer(posts) {
         setTimeout(() => {
-            posts.shift();
+            db.shiftPost();
         }, 1000 * 600);
     }
 
