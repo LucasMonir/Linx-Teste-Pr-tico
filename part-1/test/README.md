@@ -18,9 +18,9 @@
 
 * Visual Studio code (ou qualquer IDE)
 * NodeJS (importante para utilizar o NPM que será o gerenciador de pacotes), disponivel em https://www.npmjs.com/get-npm
-* Express, pelo comado: npm intall express
-* Nodemon, pelo comando: npm install nodemon
-* Jmeter, disponivel na pasta apache-jmeter
+* Express, pelo comado: npm intall express.
+* Nodemon, pelo comando: npm install nodemon.
+* Jmeter, disponivel na pasta apache-jmeter.
 * Caso na pasta src não seja encontrado "package.json", executar npm init -y, após isso na aba de scripts adicionar este trecho (colocando uma virgula no fim da 
 linha anterior): "start": "nodemon server.js"
 * Executar o comando npm start, que iniciará a aplicação
@@ -34,12 +34,21 @@ linha anterior): "start": "nodemon server.js"
 ## Lógica de filtragem
 #lógica-de-filtragem
 
-* Requisições são jogadas em um "buffer" feito com uma array, e caso uma requisição com mesmo corpo (id, name e user)
+* Requisições são jogadas em um "buffer" feito com uma array, e caso uma requisição com mesmo corpo (id, name e user).
 seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
 
-## Problemas conhecidos na execução
-- No ambiente linux (ubuntu 20.04 lts), a implementação de clusters afetou a lógica da aplicação devido ao escopo do buffer, por falta de conhecimento não foi possivel corrigir o problema,
-cada cluster acaba por tratar as informações de forma diferente, assim não faz uso do metodo de filtragem como deveria,
-porem no ambiente Windows o teste funciona como esperado e descrito em [Lógica de filtragem](#lógica-de-filtragem)
+## Exemplo:
+### Requisição com mesmo id e conteudo diferente
+> id: 1 user: cleber nome: mesa -> ok (200)
+
+> id: 1 user: cleber nome: cadeira -> ok (200) (gera novo id)
+
+### Requisição igual em intervalo de 10 minutos
+> id: 1 user: cleber nome: mesa -> ok (200)
+
+>  id: 1 user: cleber nome: mesa -> forbidden (403)
+
+
+
 
 
