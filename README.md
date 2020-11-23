@@ -17,7 +17,8 @@
 > Todos comandos são executados via terminal na pasta src
 
 * Visual Studio code (ou qualquer IDE)
-* NodeJS (importante para utilizar o NPM que será o gerenciador de pacotes), disponivel em https://www.npmjs.com/get-npm
+* NodeJS disponivel em: https://nodejs.org/en/download/
+* Npm, gerenciador de pacotes disponivel em: https://www.npmjs.com/get-npm
 * Express, pelo comado: npm intall express.
 * Nodemon, pelo comando: npm install nodemon.
 * Body-parser, pelo comando: npm install body-parser.
@@ -33,8 +34,7 @@ linha anterior): "start": "nodemon server.js"
 * Após isso o programa informará a porta de execução (localhost:3000/products)
 
 ## Lógica de filtragem
-* Requisições são jogadas em um "buffer" feito com uma array, e caso uma requisição com mesmo corpo (id, name e user).
-seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
+* Requisições são jogadas em um "buffer" feito com uma array onde ficam por 10 mnutos, e caso uma requisição com mesmo corpo (id, name e user) seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
 
 ## Exemplo:
 ### Requisição com mesmo id e conteúdo diferente
@@ -43,9 +43,11 @@ seja enviada, será retornado erro 403, se a requisição tiver um corpo diferen
 > id: 1 user: cleber nome: cadeira -> ok (200) (gera novo id)
 
 ### Requisição igual em intervalo de 10 minutos
-> id: 1 user: cleber nome: mesa -> ok (200)
+> id: 1 user: cleber nome: mesa -> ok (200) 10:00 Am
 
->  id: 1 user: cleber nome: mesa -> forbidden (403)
+> id: 1 user: cleber nome: mesa -> forbidden (403) 10:09 Am
+
+> id: 1 user: cleber nome: mesa -> ok (200) 10:10 Am
 
 
 
