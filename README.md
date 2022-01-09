@@ -35,7 +35,7 @@ linha anterior): "start": "nodemon server.js"
 * Após isso o programa informará a porta de execução (localhost:3000/products)
 
 ## Lógica de filtragem
-* Requisições são jogadas em um "buffer" feito com uma array onde ficam por 10 mnutos, e caso uma requisição com mesmo corpo (id, name e user) seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
+* Requisições são jogadas em um "buffer" feito com uma array onde ficam por 10 minutos, e caso uma requisição com mesmo corpo (id, name e user) seja enviada, será retornado erro 403, se a requisição tiver um corpo diferente porem um id igual, será atribuido um novo id.
 
 ## Exemplo:
 
